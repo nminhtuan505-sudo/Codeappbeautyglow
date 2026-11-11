@@ -1,0 +1,12 @@
+{
+  "name": "beautyglow-ai",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently \"npm run dev --workspace beautyglow-frontend\" \"npm run dev --workspace beautyglow-backend\"",
+    "build": "npm run build --workspace beautyglow-frontend",
+    "start:backend": "npm run start --workspace beautyglow-backend"
+  },
+  "devDependencies": { "concurrently": "^9.1.2" }
+}
