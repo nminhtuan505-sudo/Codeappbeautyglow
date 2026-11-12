@@ -53,7 +53,7 @@ Không đưa API key vào frontend hoặc đưa file `.env` lên GitHub. Việc 
 ## Chức năng demo
 - Tìm kiếm sản phẩm theo tên.
 - Lọc theo danh mục.
-- Thêm sản phẩm vào giỏ hàng (giỏ hàng demo ở phía trình duyệt).
+- Thêm sản phẩm vào giỏ hàng, xem giỏ, tăng/giảm số lượng và xóa sản phẩm; giỏ hàng được lưu trong localStorage của trình duyệt.\n- Xem thông tin tài khoản đang đăng nhập và đăng xuất.
 - Chatbot tư vấn sản phẩm, loại da, nhu cầu chăm sóc da ở mức thông tin chung.
 - API danh sách sản phẩm và API chat.
 
@@ -61,7 +61,7 @@ Không đưa API key vào frontend hoặc đưa file `.env` lên GitHub. Việc 
 
 
 ## 4. Tài khoản demo để kiểm thử
-Website có màn hình đăng nhập demo ở nút **Đăng nhập** trên thanh đầu trang:
+Website có màn hình đăng nhập demo ở nút **Đăng nhập** trên thanh đầu trang. Sau khi đăng nhập, nhấn tên tài khoản để xem thông tin cá nhân; nhấn biểu tượng túi để xem và chỉnh sửa giỏ hàng:
 
 | Vai trò | Email | Mật khẩu |
 |---|---|---|
